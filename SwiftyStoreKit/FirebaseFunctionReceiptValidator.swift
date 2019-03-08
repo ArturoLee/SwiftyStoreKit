@@ -4,6 +4,8 @@ import Foundation
 import Firebase
 
 // https://developer.apple.com/library/ios/releasenotes/General/ValidateAppStoreReceipt/Chapters/ValidateRemotely.html
+// https://dylanwooters.wordpress.com/2017/04/22/heres-a-node-js-microservice-that-validates-itunes-receipts/
+// https://firebase.google.com/docs/functions/callable
 
 public struct FirebaseFunctionReceiptValidator: ReceiptValidator {
 
